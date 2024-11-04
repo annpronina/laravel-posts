@@ -23,8 +23,8 @@
 
 <div class="w-4/5 m-auto pt-20">
     <form 
-        action=""
-        method=""
+        action="/blog/store"
+        method="post"
         enctype="multipart/form-data">
         @csrf
 

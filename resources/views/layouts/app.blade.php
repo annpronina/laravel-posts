@@ -47,7 +47,7 @@
         </header>
 
         <div>
-            @yield('')
+            @yield('content')
         </div>
 
         <div>

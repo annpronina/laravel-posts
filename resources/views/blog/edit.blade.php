@@ -23,7 +23,7 @@
 
 <div class="w-4/5 m-auto pt-20">
     <form 
-        action="/blog/{{ $post->slug }}"
+        action="/blog/{{ $post->slug }}/update"
         method="POST"
         enctype="multipart/form-data">
         @csrf
